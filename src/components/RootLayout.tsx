@@ -3,12 +3,12 @@ import { useState } from "react"
 import Header from "./Header"
 
 export default function Layout(){
-    const [darkMode, setDarkMode] = useState(true)
+    const [darkMode, setDarkMode] = useState(false)
 
     return (
         <div
-        className={`min-h-screen transition-colors duration-400 ${
-            darkMode ? "dark bg-zinc-950 text-white" : "bg-[#FAFAFA] text-black"
+        className={`min-h-screen transition-colors duration-300 ${
+            darkMode ? "dark bg-zinc-950 text-white" : "bg-[#E8ECE5] text-black"
         }`}
         >
         <Header darkMode={darkMode} setDarkMode={setDarkMode}/>

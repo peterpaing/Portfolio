@@ -18,14 +18,14 @@ export default function Header({ darkMode,setDarkMode}: HeaderProps){
                 </button>
                <NavLink
                 to="/certificate"
-                className="text-neutral-800 transition-colors duration-300 hover:text-neutral-900 hover:underline hover:underline-offset-6 dark:text-zinc-300 dark:hover:text-[#D3E97A]"
+                className="text-neutral-900 transition-colors duration-300 hover:text-[#D98C5F] hover:underline hover:underline-offset-6 dark:text-zinc-300 dark:hover:text-[#D3E97A]"
                 >
                 Certificate
                 </NavLink>
 
                 <a
                 href="/#contact"
-                className="text-neutral-800 transition-colors duration-300 hover:text-neutral-900 hover:underline hover:underline-offset-6 dark:text-zinc-300 dark:hover:text-[#D3E97A]"
+                className="text-neutral-900 transition-colors duration-300 hover:text-[#D98C5F] hover:underline hover:underline-offset-6 dark:text-zinc-300 dark:hover:text-[#D3E97A]"
                 >
                 Contact
                 </a>

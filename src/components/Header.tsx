@@ -9,7 +9,7 @@ type HeaderProps = {
 
 export default function Header({ darkMode,setDarkMode}: HeaderProps){
     return (
-        <header className="fixed top-0 left-0 z-50 w-full flex items-center justify-between px-3 py-4 text-neutral-800 dark:text-neutral-300">
+        <header className="fixed top-0 left-0 z-50 w-full flex items-center justify-between px-3 md:px-6 py-4 transition-colors duration-300 text-neutral-800 dark:text-neutral-300">
             <h1 className="font-bebas text-lg md:text-xl tracking-wider">Pyae Sone Paing</h1>
             <nav className="flex items-center gap-4 font-inter text-sm">
                 <button onClick={() => setDarkMode(prev => !prev)}

@@ -9,15 +9,26 @@ type HeaderProps = {
 
 export default function Header({ darkMode,setDarkMode}: HeaderProps){
     return (
-        <header className="fixed top-0 left-0 z-50 w-full flex items-center justify-between px-3 md:px-6 py-4 transition-colors duration-300 text-neutral-800 dark:text-neutral-300">
-            <h1 className="font-bebas text-lg md:text-xl tracking-wider">Pyae Sone Paing</h1>
+        <header className="fixed top-0 left-0 z-50 w-full flex items-center justify-between px-4 md:px-6 py-4 transition-colors duration-300 text-neutral-800 dark:text-neutral-300">
+            <h1 className="text-neutral-800 dark:text-zinc-300 font-bebas text-lg tracking-wider">Pyae Sone Paing</h1>
             <nav className="flex items-center gap-4 font-inter text-sm">
                 <button onClick={() => setDarkMode(prev => !prev)}
-                className="text-base">
+                className="text-base transition-transform duration-300 hover:scale-[1.1]">
                 {darkMode ? (<CgSun/>) : (<MdDarkMode/>)}
                 </button>
-               <NavLink to='/certificate'>Certificate</NavLink> 
-               <a href="/#contact">Contact</a>
+               <NavLink
+                to="/certificate"
+                className="text-neutral-800 transition-colors duration-300 hover:text-neutral-900 hover:underline hover:underline-offset-6 dark:text-zinc-300 dark:hover:text-[#D3E97A]"
+                >
+                Certificate
+                </NavLink>
+
+                <a
+                href="/#contact"
+                className="text-neutral-800 transition-colors duration-300 hover:text-neutral-900 hover:underline hover:underline-offset-6 dark:text-zinc-300 dark:hover:text-[#D3E97A]"
+                >
+                Contact
+                </a>
             </nav>
         </header>
     )

@@ -12,7 +12,10 @@ export default function Layout(){
         }`}
         >
         <Header darkMode={darkMode} setDarkMode={setDarkMode}/>
+        <main className="pt-20 px-3">
         <Outlet/>
+        </main>
+        
             
         </div>
     )

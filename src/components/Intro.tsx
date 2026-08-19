@@ -6,11 +6,11 @@ import { FaGithub } from "react-icons/fa"
 export default function Intro(){
     
     return (
-        <section className="fade-up flex flex-col md:flex-row md:items-center md:mx-auto gap-4 md:w-7/8 md:pt-12" >
-            <div className="md:w-[60%]">
+        <section className="max-w-[1140px] fade-up flex flex-col md:flex-row md:items-center mb-16 md:mx-auto gap-4 md:w-7/8 md:pt-12" >
+            <div className="md:w-[55%]">
             <h2 className="font-bebas text-4xl md:text-6xl text-shadow-md">hi, i am <br/>Pyae Sone Paing.</h2>
             <p className="mt-2 font-manrope text-neutral-600 dark:text-neutral-400 text-base md:text-lg text-shadow-md">A Yangon based front-end developer passionate about building accessible and user friendly websites.</p>
-            <nav className="flex items-center my-4 md:my-10 gap-4">
+            <nav className="flex items-center my-4 md:mt-10 gap-4">
             <a
             href="/#contact"
             className="flex h-[50px] w-[163px] items-center justify-center gap-2 rounded-3xl bg-[#D98C5F] text-[#111111] text-shadow-md shadow-md transition-transform duration-300 hover:scale-105"

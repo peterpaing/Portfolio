@@ -54,7 +54,7 @@ export default function ProjectSection() {
               {project.technologies.map((technology) => (
                 <div
                   key={technology.name}
-                  className="flex items-center gap-2 rounded-full bg-neutral-300 px-3 py-2 text-xs transition-colors duration-300 dark:bg-neutral-800"
+                  className="flex items-center gap-2 rounded-full bg-[#DDE2D8] px-3 py-2 text-xs transition-colors duration-300 dark:bg-neutral-800"
                 >
                   {technology.icon && (
                     <technology.icon size={12} />
@@ -71,7 +71,7 @@ export default function ProjectSection() {
                 href={project.link.demo}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-manrope text-xs text-[#D98C5F] transition-colors duration-300 hover:text-[#B96D44] underline underline-offset-6 "
+                className="font-manrope text-xs text-[#B9683F] underline underline-offset-4 transition-colors duration-300 hover:text-[#9E5331]"
               >
                 LIVE DEMO ↗
               </a>
@@ -80,7 +80,7 @@ export default function ProjectSection() {
                 href={project.link.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className=" flex items-center gap-2 font-manrope text-xs text-[#D98C5F] transition-colors duration-300 hover:text-[#B96D44] underline underline-offset-6 "
+                className="flex items-center gap-2 font-manrope text-xs text-[#B9683F] underline underline-offset-4 transition-colors duration-300 hover:text-[#9E5331]"
               >
                 SEE ON GITHUB <FaGithub/>
               </a>

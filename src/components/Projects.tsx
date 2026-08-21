@@ -9,7 +9,7 @@ export default function ProjectSection() {
             Featured Projects
         </h2>
 
-        <p className="mt-3 max-w-md font-manrope text-sm leading-5 text-neutral-600 dark:text-neutral-400">
+        <p className="mt-3 max-w-md font-manrope text-base leading-5 text-neutral-600 dark:text-neutral-400">
             Here are some of the selected projects that showcase my passion for
             front-end development.</p>
         </div>
@@ -29,8 +29,8 @@ export default function ProjectSection() {
         </div>
 
         <div>
-            <h3 className="font-manrope text-base font-semibold md:text-xl">{project.title}</h3>
-            <p className="mt-4 font-manrope text-sm leading-6 text-neutral-600 dark:text-neutral-400">{project.description}</p>
+            <h3 className="font-manrope text-lg font-semibold md:text-xl">{project.title}</h3>
+            <p className="mt-4 font-manrope text-base leading-6 text-neutral-600 dark:text-neutral-400">{project.description}</p>
 
             
             <div className="mt-8">

@@ -8,8 +8,8 @@ import { FaLinkedinIn } from "react-icons/fa6"
 export default function Footer(){
     return (
         <section id="contact" className="mx-auto w-11/12 border-t-1 border-neutral-400 dark:border-neutral-700 py-10 flex flex-col justify-center items-center gap-3">
-            <h4 className="font-bebas text-3xl md:text-4xl uppercase tracking-wide">Let’s connect</h4>
-            <p className="text-neutral-800 dark:text-neutral-400">
+            <h4 className="font-bebas text-3xl md:text-4xl lg:text-5xl uppercase tracking-wide">Let’s <span className="text-[#B9683F]">connect</span></h4>
+            <p className="text-sm text-neutral-800 dark:text-neutral-400 md:text-base">
             Say hello at{" "}
             <a
                 href="https://mail.google.com/mail/?view=cm&fs=1&to=pyaesonepaing104@gmail.com"
@@ -20,7 +20,7 @@ export default function Footer(){
                 pyaesonepaing104@gmail.com
             </a>
             </p>
-            <p className="leading-5 text-neutral-800 dark:text-neutral-400">For more info, here’s my{" "}
+            <p className="text-sm leading-5 text-neutral-800 dark:text-neutral-400 md:text-base">For more info, here’s my{" "}
              <a className="underline underline-offset-3 decoration-[#B9683F] text-black dark:text-white hover:text-[#B9683F]">resume</a></p>
             <div className="flex items-center gap-4 text-xl mt-3 text-[#B9683F] text-shadow-md">
                 <a className="transition-all duration-300 hover:scale-110" target="_blank"

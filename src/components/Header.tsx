@@ -17,14 +17,14 @@ export default function Header({ darkMode,setDarkMode}: HeaderProps){
                 {darkMode ? (<CgSun/>) : (<MdDarkMode/>)}
                 </button>
                <NavLink
-                to="/certificate"
+                to="/certificates"
                 className="text-neutral-900 hover:text-[#D98C5F] hover:underline hover:underline-offset-6 dark:text-zinc-300 dark:hover:text-[#D3E97A]"
                 >
-                Certificate
+                Certificates
                 </NavLink>
 
                 <a
-                href="/#contact"
+                href="#contact"
                 className="text-neutral-900 hover:text-[#D98C5F] hover:underline hover:underline-offset-6 dark:text-zinc-300 dark:hover:text-[#D3E97A]"
                 >
                 Contact

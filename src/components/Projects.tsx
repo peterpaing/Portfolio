@@ -1,4 +1,4 @@
-import { projects } from "./../data/projects"
+import { projects } from "../data/portfolio"
 import { FaGithub } from "react-icons/fa"
 
 export default function ProjectSection() {

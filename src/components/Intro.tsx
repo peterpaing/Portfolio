@@ -12,7 +12,9 @@ export default function Intro(){
             <p className="mt-2 font-manrope text-neutral-600 dark:text-neutral-400 text-base md:text-lg text-shadow-md">A Yangon based front-end developer passionate about building accessible and user friendly websites.</p>
             <nav className="flex items-center my-4 md:mt-10 gap-4">
             <a
-            href="/#contact"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=pyaesonepaing104@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex h-[50px] w-[163px] items-center justify-center gap-2 rounded-3xl bg-[#D98C5F] text-[#111111] text-shadow-md shadow-md transition-transform duration-300 hover:scale-105"
             >
             Contact Me

@@ -1,6 +1,7 @@
 import { Outlet } from "react-router"
 import { useState } from "react"
 import Header from "./Header"
+import Footer from "./Footer"
 
 export default function Layout(){
     const [darkMode, setDarkMode] = useState(false)
@@ -15,8 +16,7 @@ export default function Layout(){
         <main className="pt-24 px-4">
         <Outlet/>
         </main>
-        
-            
+        <Footer/>
         </div>
     )
 }

@@ -1,4 +1,4 @@
-import { _React,TypescriptIcon,NextjsIcon,TailwindIcon} from "@dev.icons/react"
+import { Javascript,_React,TypescriptIcon,NextjsIcon,TailwindIcon} from "@dev.icons/react"
 import type { ComponentType } from "react"
 import CurrencyExchangeImage from "./../assets/money-exchange.png"
 
@@ -32,6 +32,10 @@ export const projects:Project[] =[
         year:2026,
         role:'Front-end Developer',
         technologies: [
+            {
+                name: "JavaScript",
+                icon: Javascript,
+            },
             {
                 name: "React",
                 icon: _React,

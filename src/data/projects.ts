@@ -1,6 +1,15 @@
 import { Javascript,_React,TypescriptIcon,NextjsIcon,TailwindIcon} from "@dev.icons/react"
 import type { ComponentType } from "react"
-import CurrencyExchangeImage from "./../assets/money-exchange.png"
+import CurrencyExchangeImage from "./../assets/projects/money-exchange.png"
+import FrontEnd from "./../assets/certificates/Front-end.png"
+import JavaScript from "./../assets/certificates/JavaScript.png"
+import React from "./../assets/certificates/React.png"
+import Nextjs from "./../assets/certificates/Nextjs.png"
+import Tailwind from "./../assets/certificates/tailwind.png"
+import TypeScript from "./../assets/certificates/TypeScript.png"
+import Responsive from "./../assets/certificates/Responsive.png"
+import Git from "./../assets/certificates/Git.png"
+import Vite from "./../assets/certificates/Vite.png"
 
 type Technology = {
   name: string;
@@ -64,3 +73,60 @@ export const projects:Project[] =[
     },
     
 ]
+
+export const certificates = [
+    {
+        title: "Front-End Developer",
+        image: FrontEnd,
+        month: "Month",
+        year: "Year",
+    },
+    {
+        title: "JavaScript",
+        image: JavaScript,
+        month: "Month",
+        year: "Year",
+    },
+    {
+        title: "React",
+        image: React,
+        month: "Month",
+        year: "Year",
+    },
+    {
+        title: "Next.js",
+        image: Nextjs,
+        month: "Month",
+        year: "Year",
+    },
+    {
+        title: "Tailwind CSS",
+        image: Tailwind,
+        month: "Month",
+        year: "Year",
+    },
+    {
+        title: "TypeScript",
+        image: TypeScript,
+        month: "Month",
+        year: "Year",
+    },
+    {
+        title: "Responsive Web Design",
+        image: Responsive,
+        month: "Month",
+        year: "Year",
+    },
+    {
+        title: "Git",
+        image: Git,
+        month: "Month",
+        year: "Year",
+    },
+    {
+        title: "Vite",
+        image: Vite,
+        month: "Month",
+        year: "Year",
+    },
+];

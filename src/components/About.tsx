@@ -1,4 +1,4 @@
-import {Javascript,Css,_React,TypescriptIcon,NextjsIcon,TailwindIcon} from "@dev.icons/react"
+import {Javascript,Css,_React,TypescriptIcon,NextjsIcon,TailwindIcon,GitIcon} from "@dev.icons/react"
 import { FaHtml5 } from "react-icons/fa"
 import type { ComponentType } from "react"
 
@@ -16,6 +16,7 @@ export default function About(){
   { name: "React", icon: _React },
   { name: "TypeScript", icon: TypescriptIcon },
   { name: "Next.js", icon: NextjsIcon },
+  { name: "Git", icon: GitIcon },
 ]
 
     return(

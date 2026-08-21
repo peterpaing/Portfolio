@@ -61,5 +61,6 @@ export const projects:Project[] =[
             github:'https://github.com/peterpaing/currency-exchange-dashboard.git'
 
         }
-    }
+    },
+    
 ]

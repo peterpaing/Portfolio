@@ -3,16 +3,17 @@ import { FaGithub } from "react-icons/fa"
 
 export default function ProjectSection() {
   return (
-    <section className="fade-up mx-auto w-11/12 max-w-6xl py-10 border-t-1 border-neutral-400 dark:border-neutral-700">
+    <section className="fade-up mx-auto w-11/12 max-w-6xl py-10 border-t border-neutral-400 dark:border-neutral-700">
         <div className="mb-12">
         <h2 className="font-manrope text-2xl font-extrabold uppercase tracking-tight text-black dark:text-white md:text-3xl">
             Featured Projects
         </h2>
 
-        <p className="mt-3 max-w-md font-manrope text-base leading-5 text-neutral-600 dark:text-neutral-400">
+        <p className="mt-3 max-w-md font-manrope text-base leading-6 text-neutral-600 dark:text-neutral-400">
             Here are some of the selected projects that showcase my passion for
             front-end development.</p>
         </div>
+        <div className="flex flex-col gap-y-15">
       {projects.map((project) => (
         <article
           key={project.id}
@@ -29,7 +30,7 @@ export default function ProjectSection() {
         </div>
 
         <div>
-            <h3 className="font-manrope text-lg font-semibold md:text-xl">{project.title}</h3>
+            <h3 className="mt-4 font-manrope text-lg font-semibold md:text-xl">{project.title}</h3>
             <p className="mt-4 font-manrope text-base leading-6 text-neutral-600 dark:text-neutral-400">{project.description}</p>
 
             
@@ -66,7 +67,7 @@ export default function ProjectSection() {
             </div>
 
             
-            <div className="mt-6 flex gap-6">
+            <div className="mt-6  flex gap-6">
               <a
                 href={project.link.demo}
                 target="_blank"
@@ -88,6 +89,7 @@ export default function ProjectSection() {
           </div>
         </article>
       ))}
+      </div>
     </section>
   )
 }

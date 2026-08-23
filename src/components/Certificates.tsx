@@ -1,5 +1,6 @@
 import CertificateIcon from "./../assets/certificateIcon.png"
 import { certificates } from "../data/portfolio"
+import { IoArrowUpSharp } from "react-icons/io5"
 
 export default function Certificates() {
   return (
@@ -66,14 +67,18 @@ export default function Certificates() {
                 </p>
 
                 <a
-                  href={certificate.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={`View ${certificate.title} certificate (opens in a new tab)`}
-                  className="mt-5 flex items-center justify-center gap-2 rounded-full border border-neutral-400 px-4 py-2.5 font-manrope text-xs font-semibold uppercase tracking-wide text-neutral-900 transition-colors duration-300 hover:border-[#B9683F] hover:text-[#B9683F] focus-visible:outline-2 focus-visible:outline-[#D4804E] focus-visible:outline-offset-6 dark:border-neutral-600 dark:text-zinc-100 dark:hover:border-[#D3E97A] dark:hover:text-[#D3E97A]"
+                href={certificate.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`View ${certificate.title} certificate (opens in a new tab)`}
+                className="mt-5 flex items-center justify-center gap-2 rounded-full border border-neutral-400 px-4 py-2.5 font-manrope text-xs font-semibold uppercase tracking-wide text-neutral-900 transition-colors duration-300 hover:border-[#B9683F] hover:text-[#B9683F] focus-visible:outline-2 focus-visible:outline-[#D4804E] focus-visible:outline-offset-6 dark:border-neutral-600 dark:text-zinc-100 dark:hover:border-[#D3E97A] dark:hover:text-[#D3E97A]"
                 >
-                  View Certificate
-                  <span aria-hidden="true">↗</span>
+                View Certificate
+                <IoArrowUpSharp
+                aria-hidden="true"
+                focusable="false"
+                className="rotate-45 text-sm"
+                />
                 </a>
               </div>
             </article>

@@ -7,7 +7,7 @@ import { FaLinkedinIn } from "react-icons/fa6"
 
 export default function Footer(){
     return (
-        <section id="contact" className="mx-auto w-11/12 border-t-1 border-neutral-400 dark:border-neutral-700 py-10 flex flex-col justify-center items-center gap-3">
+        <section id="contact" className="mx-auto w-11/12 border-t-1 border-neutral-400 dark:border-neutral-700 py-10 flex flex-col justify-center items-center gap-4">
             <h4 className="font-bebas text-3xl md:text-4xl lg:text-5xl uppercase tracking-wide">Let’s <span className="text-[#D4804E]">connect</span></h4>
             <p className="text-sm text-neutral-800 dark:text-neutral-400 md:text-base">
             Say hello at{" "}

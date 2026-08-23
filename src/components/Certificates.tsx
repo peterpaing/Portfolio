@@ -5,7 +5,7 @@ export default function Certificates() {
   return (
     <section className="mx-auto w-11/12">
         <a href="/"
-        className="mb-8 inline-flex items-center gap-3 font-manrope text-base text-neutral-600 transition-colors duration-300 hover:text-[#B9683F] dark:text-neutral-400 dark:hover:text-[#D3E97A]"
+        className="mb-8 inline-flex items-center gap-3 font-manrope text-base text-neutral-600 transition-colors duration-300 hover:text-[#B9683F] dark:text-neutral-400"
         >← Back to Home Page</a>
         <div className="py-10 ">
       

@@ -1,5 +1,5 @@
 import { IoArrowUpSharp } from "react-icons/io5"
-import profile from "./../assets/profile.png"
+import profile from "./../assets/images/profile.png"
 import { GrLinkedinOption } from "react-icons/gr"
 import { FaGithub } from "react-icons/fa"
 

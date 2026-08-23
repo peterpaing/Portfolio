@@ -1,4 +1,4 @@
-import CertificateIcon from "./../assets/certificateIcon.png"
+import CertificateIcon from "./../assets/images/certificateIcon.png"
 import { certificates } from "../data/portfolio"
 import { IoArrowUpSharp } from "react-icons/io5"
 

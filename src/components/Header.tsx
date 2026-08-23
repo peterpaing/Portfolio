@@ -35,15 +35,17 @@ export default function Header({ darkMode,setDarkMode}: HeaderProps){
             <h1 className="text-neutral-800 dark:text-zinc-300 font-bebas text-lg tracking-wider">Pyae Sone Paing</h1>
             <nav className="flex items-center gap-4 font-inter text-sm">
                 <button onClick={() => setDarkMode(prev => !prev)}
-                className="text-base transition-transform duration-300 hover:scale-[1.1]">
+                className="text-base transition-transform duration-300 hover:scale-[1.1] rounded-md focus-visible:outline-2 focus-visible:outline-[#D4804E] focus-visible:outline-offset-6">
                 {darkMode ? (<CgSun/>) : (<MdDarkMode/>)}
                 </button>
                <NavLink
                 to="/certificates"
                 className={({ isActive }) =>
+                    `rounded-md focus-visible:outline-2 focus-visible:outline-[#D4804E] focus-visible:outline-offset-6 ${
                     isActive
-                    ? "text-[#D98C5F] underline underline-offset-6 decoration-[#D98C5F]"
-                    : "text-neutral-900 hover:text-[#D98C5F] hover:underline hover:underline-offset-6 hover:decoration-[#D98C5F] dark:text-zinc-300 "
+                        ? "text-[#D98C5F] underline underline-offset-6 decoration-[#D98C5F]"
+                        : "text-neutral-900 hover:text-[#D98C5F] hover:underline hover:underline-offset-6 hover:decoration-[#D98C5F] dark:text-zinc-300"
+                    }`
                 }
                 >
                 Certificates
@@ -52,9 +54,11 @@ export default function Header({ darkMode,setDarkMode}: HeaderProps){
                 <a
                  href="#contact"
                 className={
+                    `rounded-md focus-visible:outline-2 focus-visible:outline-[#D4804E] focus-visible:outline-offset-6 ${
                     contactActive
-                    ? "text-[#D98C5F] underline underline-offset-6 decoration-[#D98C5F]"
-                    : "text-neutral-900 hover:text-[#D98C5F] hover:underline hover:underline-offset-6 hover:decoration-[#D98C5F] dark:text-zinc-300 "
+                        ? "text-[#D98C5F] underline underline-offset-6 decoration-[#D98C5F]"
+                        : "text-neutral-900 hover:text-[#D98C5F] hover:underline hover:underline-offset-6 hover:decoration-[#D98C5F] dark:text-zinc-300"
+                    }`
                 }>
                 Contact
                 </a>

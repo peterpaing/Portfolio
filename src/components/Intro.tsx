@@ -15,7 +15,8 @@ export default function Intro(){
             href="https://mail.google.com/mail/?view=cm&fs=1&to=pyaesonepaing104@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex h-[50px] w-[163px] items-center justify-center gap-2 rounded-3xl bg-[#D98C5F] text-[#111111] text-shadow-md shadow-md transition-transform duration-300 hover:scale-105"
+            className="flex h-[50px] w-[163px] items-center justify-center gap-2 rounded-3xl bg-[#D98C5F] text-[#111111] text-shadow-md shadow-md
+            transition-all duration-300 hover:scale-105 focus-visible:outline-2 focus-visible:outline-[#D4804E] focus-visible:outline-offset-6"
             >
             Contact Me
             <span className="flex h-[40px] w-[40px] items-center justify-center rounded-full bg-zinc-900 text-white rotate-[40deg]">
@@ -27,7 +28,8 @@ export default function Intro(){
             href="https://www.linkedin.com/in/pyae-sone-paing-06a283418/"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex h-[48px] w-[48px] items-center justify-center rounded-full bg-[#BDD45F] text-xl text-[#111111] shadow-xl transition-all duration-300 hover:scale-110 dark:bg-neutral-800 dark:text-[#D3E97A]"
+            className="flex h-[48px] w-[48px] items-center justify-center rounded-full bg-[#BDD45F] text-xl text-[#111111] shadow-xl 
+            transition-all duration-300 hover:scale-110 dark:bg-neutral-800 dark:text-[#D3E97A] focus-visible:outline-2 focus-visible:outline-[#BDD45F] focus-visible:outline-offset-6"
             >
             <GrLinkedinOption />
             </a>
@@ -36,7 +38,8 @@ export default function Intro(){
             href="https://github.com/peterpaing"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex h-[48px] w-[48px] items-center justify-center rounded-full bg-[#BDD45F] text-xl text-[#111111] shadow-xl transition-all duration-300 hover:scale-110 dark:bg-neutral-800 dark:text-[#D3E97A]"
+            className="flex h-[48px] w-[48px] items-center justify-center rounded-full bg-[#BDD45F] text-xl text-[#111111] shadow-xl 
+            transition-all duration-300 hover:scale-110 dark:bg-neutral-800 dark:text-[#D3E97A] focus-visible:outline-2 focus-visible:outline-[#BDD45F] focus-visible:outline-offset-6"
             >
             <FaGithub />
             </a>

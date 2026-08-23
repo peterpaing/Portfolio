@@ -5,7 +5,8 @@ export default function Certificates() {
   return (
     <section className="mx-auto w-11/12">
         <a href="/"
-        className="mb-8 inline-flex items-center gap-3 font-manrope text-base text-neutral-600 transition-colors duration-300 hover:text-[#B9683F] dark:text-neutral-400"
+        className="mb-8 inline-flex items-center gap-3 font-manrope text-base text-neutral-600 transition-colors duration-300
+         hover:text-[#B9683F] dark:text-neutral-400 rounded-md focus-visible:outline-2 focus-visible:outline-[#D4804E] focus-visible:outline-offset-6"
         >← Back to Home Page</a>
         <div className="py-10 ">
       
@@ -58,7 +59,9 @@ export default function Certificates() {
                 href={certificate.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-5 flex items-center justify-center gap-2 rounded-full border border-neutral-400 px-4 py-2.5 font-manrope text-xs font-semibold uppercase tracking-wide text-neutral-900 transition-colors duration-300 hover:border-[#B9683F] hover:text-[#B9683F] dark:border-neutral-600 dark:text-zinc-100 dark:hover:border-[#D3E97A] dark:hover:text-[#D3E97A]"
+                className="mt-5 flex items-center justify-center gap-2 rounded-full border border-neutral-400 px-4 py-2.5 font-manrope text-xs font-semibold 
+                uppercase tracking-wide text-neutral-900 transition-colors duration-300 hover:border-[#B9683F] hover:text-[#B9683F] dark:border-neutral-600 dark:text-zinc-100
+                dark:hover:border-[#D3E97A] dark:hover:text-[#D3E97A] focus-visible:outline-2 focus-visible:outline-[#D4804E] focus-visible:outline-offset-6"
               >
                 View Certificate
                 <span aria-hidden="true">↗</span>

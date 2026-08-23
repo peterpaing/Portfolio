@@ -72,7 +72,8 @@ export default function ProjectSection() {
                 href={project.link.demo}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-manrope text-xs underline underline-offset-4 decoration-[#B9683F] hover:text-[#B9683F]"
+                className="font-manrope text-xs underline underline-offset-4 decoration-[#B9683F] hover:text-[#B9683F]
+                rounded-md focus-visible:outline-2 focus-visible:outline-[#D4804E] focus-visible:outline-offset-6"
               >
                 LIVE DEMO ↗
               </a>
@@ -81,7 +82,8 @@ export default function ProjectSection() {
                 href={project.link.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 font-manrope text-xs underline underline-offset-4 decoration-[#B9683F] hover:text-[#B9683F]"
+                className="flex items-center gap-2 font-manrope text-xs underline underline-offset-4 decoration-[#B9683F] hover:text-[#B9683F]
+                rounded-md focus-visible:outline-2 focus-visible:outline-[#D4804E] focus-visible:outline-offset-6"
               >
                 SEE ON GITHUB <FaGithub/>
               </a>

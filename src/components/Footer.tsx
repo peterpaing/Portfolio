@@ -15,23 +15,25 @@ export default function Footer(){
                 href="https://mail.google.com/mail/?view=cm&fs=1&to=pyaesonepaing104@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="underline underline-offset-7 decoration-[#B9683F] text-black dark:text-white hover:text-[#B9683F]"
+                className="underline underline-offset-7 decoration-[#B9683F] text-black dark:text-white hover:text-[#B9683F]
+                rounded-md focus-visible:outline-2 focus-visible:outline-[#D4804E] focus-visible:outline-offset-4"
             >
                 pyaesonepaing104@gmail.com
             </a>
             </p>
             <p className="text-sm leading-5 text-neutral-800 dark:text-neutral-400 md:text-base">For more info, here’s my{" "}
-             <a className="underline underline-offset-3 decoration-[#D4804E] text-black dark:text-white hover:text-[#D4804E]">resume</a></p>
+             <a className="underline underline-offset-3 decoration-[#D4804E] text-black dark:text-white hover:text-[#D4804E]
+             rounded-md focus-visible:outline-2 focus-visible:outline-[#D4804E] focus-visible:outline-offset-4">resume</a></p>
             <div className="flex items-center gap-4 text-xl mt-3 text-[#D4804E] text-shadow-md">
-                <a className="transition-all duration-300 hover:scale-110" target="_blank"
+                <a className="transition-all duration-300 hover:scale-110 rounded-md focus-visible:outline-2 focus-visible:outline-[#D4804E] focus-visible:outline-offset-6" target="_blank"
                 href="https://github.com/peterpaing" rel="noopener noreferrer"><FaGithub/></a>
-                <a className="transition-all duration-300 hover:scale-110" target="_blank"
+                <a className="transition-all duration-300 hover:scale-110 rounded-md focus-visible:outline-2 focus-visible:outline-[#D4804E] focus-visible:outline-offset-6" target="_blank"
                 href="https://www.tiktok.com/@guanqt?is_from_webapp=1&sender_device=pc" rel="noopener noreferrer"><FaTiktok/></a>
-                <a className="transition-all duration-300 hover:scale-110" target="_blank"
-                href="https://www.instagram.com/peter_is4_shar" rel="noopener noreferrer"><FaInstagram/></a>
-                <a className="transition-all duration-300 hover:scale-110" target="_blank"
+                <a className="transition-all duration-300 hover:scale-110 rounded-md focus-visible:outline-2 focus-visible:outline-[#D4804E] focus-visible:outline-offset-6" target="_blank"
+                href="https://www.instagram.com/peter_is4_shar" rel="noopener noreferre "><FaInstagram/></a>
+                <a className="transition-all duration-300 hover:scale-110 rounded-md focus-visible:outline-2 focus-visible:outline-[#D4804E] focus-visible:outline-offset-6" target="_blank"
                 href="https://www.linkedin.com/in/pyae-sone-paing-06a283418/" rel="noopener noreferrer"><FaLinkedinIn/></a>
-                <a className="transition-all duration-300 hover:scale-110" target="_blank"
+                <a className="transition-all duration-300 hover:scale-110 rounded-md focus-visible:outline-2 focus-visible:outline-[#D4804E] focus-visible:outline-offset-6" target="_blank"
                 href="https://t.me/guanqt" rel="noopener noreferrer"><FaTelegram/></a>
             </div>
         </section>

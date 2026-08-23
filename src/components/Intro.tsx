@@ -7,12 +7,12 @@ export default function Intro() {
   return (
     <section className="fade-up mb-16 flex max-w-[1140px] flex-col gap-4 md:mx-auto md:w-7/8 md:flex-row md:items-center md:pt-12">
       <div className="md:w-[55%]">
-        <h1 className="font-bebas text-4xl text-shadow-md md:text-6xl">
+        <h1 className="font-bebas text-4xl md:text-6xl">
           hi, i am <br />
           Pyae Sone Paing.
         </h1>
 
-        <p className="mt-2 font-manrope text-base text-neutral-600 text-shadow-md dark:text-neutral-400 md:text-lg">
+        <p className="mt-2 font-manrope text-base text-neutral-600 dark:text-neutral-400 md:text-lg">
           A Yangon based front-end developer passionate about building accessible
           and user friendly websites.
         </p>

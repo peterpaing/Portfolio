@@ -2,6 +2,10 @@
 
 A responsive personal portfolio website for **Pyae Sone Paing**, a Yangon-based front-end developer. The site highlights selected projects, professional certificates, technical skills, contact details, social profiles, and a downloadable resume.
 
+## Preview
+
+![Pyae Sone Paing Portfolio preview](./docs/images/portfolio-preview.png)
+
 ## Features
 
 - Responsive layout for mobile, tablet, and desktop screens

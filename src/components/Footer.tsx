@@ -22,8 +22,13 @@ export default function Footer(){
             </a>
             </p>
             <p className="text-sm leading-5 text-neutral-800 dark:text-neutral-400 md:text-base">For more info, here’s my{" "}
-             <a className="underline underline-offset-3 decoration-[#D4804E] text-black dark:text-white hover:text-[#D4804E]
-             rounded-md focus-visible:outline-2 focus-visible:outline-[#D4804E] focus-visible:outline-offset-4">resume</a></p>
+             <a 
+            href="/Pyae_Sone_Paing_Junior_Frontend_Developer_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline underline-offset-3 decoration-[#D4804E] text-black dark:text-white hover:text-[#D4804E]
+            rounded-md focus-visible:outline-2 focus-visible:outline-[#D4804E] focus-visible:outline-offset-4">resume</a></p>
+
             <div className="flex items-center gap-4 text-xl mt-3 text-[#D4804E] text-shadow-md">
                 <a className="transition-all duration-300 hover:scale-110 rounded-md focus-visible:outline-2 focus-visible:outline-[#D4804E] focus-visible:outline-offset-6" target="_blank"
                 href="https://github.com/peterpaing" rel="noopener noreferrer"><FaGithub/></a>

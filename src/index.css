@@ -25,3 +25,37 @@
 .fade-up {
   animation: fadeUp 0.8s ease-out forwards;
 }
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #D98C5F #E8ECE5;
+}
+
+html::-webkit-scrollbar {
+  width: 5px;
+}
+
+html::-webkit-scrollbar-track {
+  background: #E8ECE5;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #D98C5F;
+  border-radius: 9999px;
+}
+
+html.dark {
+  scrollbar-color: #D98C5F #09090B;
+}
+
+
+html.dark::-webkit-scrollbar-track {
+  background: #09090B;
+}
+
+html.dark::-webkit-scrollbar-thumb {
+  background: #D98C5F;
+}
+
+
+

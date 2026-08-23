@@ -1,10 +1,14 @@
 import { Outlet } from "react-router"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import Header from "./Header"
 import Footer from "./Footer"
 
 export default function Layout(){
     const [darkMode, setDarkMode] = useState(false)
+    
+     useEffect(() => {
+    document.documentElement.classList.toggle("dark", darkMode);
+  }, [darkMode])
 
     return (
         <div

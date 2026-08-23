@@ -1,5 +1,6 @@
 import { projects } from "../data/portfolio"
 import { FaGithub } from "react-icons/fa"
+import { IoArrowUpSharp } from "react-icons/io5"
 
 export default function ProjectSection() {
   return (
@@ -102,7 +103,12 @@ export default function ProjectSection() {
                   aria-label={`View live demo of ${project.title} (opens in a new tab)`}
                   className="rounded-md font-manrope text-xs underline decoration-[#B9683F] underline-offset-4 hover:text-[#B9683F] focus-visible:outline-2 focus-visible:outline-[#D4804E] focus-visible:outline-offset-6"
                 >
-                  LIVE DEMO <span aria-hidden="true">↗</span>
+                  LIVE DEMO{" "}
+                  <IoArrowUpSharp
+                    aria-hidden="true"
+                    focusable="false"
+                    className="inline-block rotate-45 text-sm"
+                  />
                 </a>
 
                 <a

@@ -1,6 +1,7 @@
 import { Javascript,_React,TypescriptIcon,NextjsIcon,TailwindIcon} from "@dev.icons/react"
 import type { ComponentType } from "react"
 import CurrencyExchangeImage from "./../assets/projects/money-exchange.png"
+import KanbanTaskManagementImage from "./../assets/projects/KanbanTaskManagement.png"
 import FrontEnd from "./../assets/certificates/Front-end.png"
 import JavaScript from "./../assets/certificates/JavaScript.png"
 import React from "./../assets/certificates/React.png"
@@ -43,27 +44,27 @@ export const projects:Project[] =[
         role:'Front-end Developer',
         technologies: [
             {
-                name: "JavaScript",
-                icon: Javascript,
+              name: "JavaScript",
+              icon: Javascript,
             },
             {
-                name: "React",
-                icon: _React,
+              name: "React",
+              icon: _React,
             },
             {
-                name: "TypeScript",
-                icon: TypescriptIcon,
+              name: "TypeScript",
+              icon: TypescriptIcon,
             },
             {
-                name: "Next.js",
-                icon: NextjsIcon,
+              name: "Next.js",
+              icon: NextjsIcon,
             },
             {
-                name: "Tailwind CSS",
-                icon: TailwindIcon,
+              name: "Tailwind CSS",
+              icon: TailwindIcon,
             },
             {
-                name: "Frankfurter API",
+              name: "Frankfurter API",
             },
         ],
         link: {
@@ -72,7 +73,40 @@ export const projects:Project[] =[
 
         }
     },
-    
+    {
+          id: 2,
+          image: KanbanTaskManagementImage,
+          title: "Kanban Task Management App",
+          description:
+            "A responsive Kanban task management app for organizing work across custom boards and columns. Users can create, edit, and delete boards and tasks, manage subtasks, update task statuses, switch between light and dark mode, and keep their data saved in browser local storage.",
+          year: 2026,
+          role: "Front-end Developer",
+          technologies: [
+            {
+              name: "React",
+              icon: _React,
+            },
+            {
+              name: "TypeScript",
+              icon: TypescriptIcon,
+            },
+            {
+              name: "Next.js",
+              icon: NextjsIcon,
+            },
+            {
+              name: "Tailwind CSS",
+              icon: TailwindIcon,
+            },
+            {
+              name: "Local Storage",
+            },
+          ],
+          link: {
+            demo: 'https://kanban-task-management-nine-rho.vercel.app/',
+            github:'https://github.com/peterpaing/kanban-task-management.git',
+          },
+    },
 ]
 
 export const certificates = [

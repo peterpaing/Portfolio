@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Pyae Sone Paing portfolio icon</title>
+  <desc id="desc">A dark P monogram inside an orange circle.</desc>
+  <circle cx="256" cy="256" r="216" fill="#D98C5F"/>
+  <path transform="translate(46 42) scale(.82)" fill="#FFFFFF" d="M128 84h126c92 0 154 58 154 143 0 86-62 144-154 144h-43v58c0 22-18 40-40 40h-43V84Zm83 86v116h39c44 0 70-22 70-58s-26-58-70-58h-39Z"/>
+</svg>

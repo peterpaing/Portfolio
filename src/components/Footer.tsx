@@ -56,7 +56,7 @@ export default function Footer() {
         </a>
 
         <a
-          href="https://www.tiktok.com/@guanqt?is_from_webapp=1&sender_device=pc"
+          href="https://www.tiktok.com/@peter_frontend?_r=1&_t=ZS-99QU3VbZ4nA"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Visit Pyae Sone Paing's TikTok profile (opens in a new tab)"
